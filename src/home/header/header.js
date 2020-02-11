@@ -1,4 +1,4 @@
-import e from './../../../puc/lib/index'
+import e from 'ezdo'
 import './header.css'
 
 class Header extends e.Node {
