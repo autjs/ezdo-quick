@@ -1,0 +1,16 @@
+.header {
+    background-color: blanchedalmond;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 60px;
+}
+
+.menu-item:hover {
+    font-size: 1.6rem;
+}
