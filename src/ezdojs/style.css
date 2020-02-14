@@ -1,0 +1,29 @@
+
+.logo {
+    font-size: 24px;
+    color: cadetblue;
+}
+
+.header-line {
+    height: 6px;
+    background-color: #5e03fd;
+}
+
+.header-content {
+    line-height: 60px;
+    background-color: #2fd4dc;
+    padding: 0 100px;
+}
+
+.main-menu, .main-menu-item {
+    display: inline;
+}
+
+.main-menu {
+    margin-left: 20%;
+}
+
+.main-menu-item {
+    margin-left: 30px;
+    cursor: pointer;
+}
