@@ -4,7 +4,8 @@ class Docs extends ez.Node {
     constructor() {
         super()
 
-        this.text = 'Docs page'
+        this.addClass('page')
+        this.text = '很抱歉，文档内容还未编写'
     }
 }
 

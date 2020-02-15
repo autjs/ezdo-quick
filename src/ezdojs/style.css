@@ -1,4 +1,35 @@
 
+.ez-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.ez-content {
+    margin-top: 100px;
+}
+
+.ez-code {
+    width: 640px;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.ez-temp-header {
+    margin: 200px 0 60px 0;
+}
+
+.ez-temp-header-sub-title {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.ez-help p {
+    margin-bottom: 10px;
+}
+
 .logo {
     font-size: 24px;
     color: cadetblue;
@@ -27,3 +58,23 @@
     margin-left: 30px;
     cursor: pointer;
 }
+
+.page {
+    width: 100%;
+    text-align: center;
+}
+
+/* home css */
+.home-header {
+    margin: 30px;
+}
+
+.home-header-title {
+    font-size: 3rem;
+}
+
+.home-header-sub-title {
+    font-size: 2rem;
+}
+
+

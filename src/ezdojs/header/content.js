@@ -28,12 +28,16 @@ class Content extends ez.Node {
 
     onSelectMenuItem(node) {
         this.router.to(node.data.link)
+        setTimeout(() => {
+            Prism.highlightAll(document)
+        }, 60);
     }
 
     get data() {
         return {
             nav: [
                 { name: '首页', link: 'home' },
+                { name: '模板', link: 'temp' },
                 { name: '文档', link: 'docs' },
                 { name: '帮助', link: 'help' }
             ]

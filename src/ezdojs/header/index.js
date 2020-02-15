@@ -6,6 +6,7 @@ class Header extends ez.Node {
     constructor(router) {
         super()
 
+        this.addClass('ez-header')
         let line = new ez.Node()
         line.addClass('header-line')
         this.add(line)
